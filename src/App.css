@@ -12,64 +12,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.carousel {
-  position: relative;
-  width: 500px;
-  max-height: 500px;
-  overflow: hidden;
-}
-
-.carousel-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.carousel {
-  position: relative;
-  overflow: hidden;
-}
-
-.carousel-slides {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-
-}
-
-.carousel-slide {
-  width: 50px;
-  flex: 0 0 100%;
-}
-
-.carousel img {
-  width: 250px;
-  height: auto;
-}
-
-.carousel-prev,
-.carousel-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 24px;
-  color: #000;
-  text-decoration: none;
-  opacity: 0.8;
-}
-
-.carousel-prev {
-  left: 10px;
-}
-
-.carousel-next {
-  right: 10px;
-}
-
-.carousel-prev:hover,
-.carousel-next:hover {
-  opacity: 1;
-}
-
 .App-header {
   background:  rgb(186, 98, 170);
   background: linear-gradient(90deg, rgba(186, 98, 170, 1) 0%,  rgb(54, 49, 189) 100%);
