@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { prevSlide, nextSlide } from './CaroucelButton';
 import credential from "./images/credencial.jpeg";
 import rickmorty1 from "./images/rick-morty1.jpg";
 import rickmorty2 from "./images/rick-morty2.jpg";
